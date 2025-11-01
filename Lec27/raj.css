@@ -1,0 +1,32 @@
+.box{
+    width: 400px;
+    height: 400px;
+    background-color: beige;
+    border: 2px solid black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: auto; */
+    transition: all 3s linear 1s;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box:hover{
+    /* transform: rotate(45deg); */ /* box rotate hoga 45deg*/
+    /* transform: scale(2); box ka size double ho jayega */
+   /* transform: scale(0.5); */ /* box ka size kam ho jayega */
+    /*transform: rotate(-45deg);*/ /* anti close wise ghumega */ 
+    /* transform: skew(45deg); */
+
+    /*transform: translate(200px); */ /* isse box right side me move karega X-axis par */
+    transform: translate(0px,200px);  /* isse box down me move karega Y-axis par */
+}
+p{
+    font-size: 30px;
+}
