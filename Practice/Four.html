@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(200, 200, 200);
+            display: flex;
+            justify-content: center; 
+            align-items: center;
+            height: 100vh;
+        }
+        .type{
+            background-color: darkgray;
+            border: 1px solid black;
+            margin-right: 10px;
+            padding: 0.3rem;
+            
+        }
+        .button{
+            background-color: darkgray;
+            border: 1px solid black;
+            margin-right: 10px;
+            font-size: 1.1rem;
+            
+        }
+        .button:hover {
+            background-color: gray;
+    }
+        .box{
+            display: flex;
+            align-items: center;
+            
+        }
+        .box label {
+          width: 120px;
+          margin: 1.5px;
+          font-weight: bold;
+          
+        }
+        .t1{
+            font-size: 1.2rem;
+        }
+        .H{
+           
+           padding-bottom: 2rem;
+        }
+        form{
+            background-color: darkgray;
+            padding: 40px 70px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+        }
+        form:hover{
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    
+    <form>
+        <h3 class="H">HTML Form</h3>
+        <div class="box">
+        <label for="text1" class="t1">First Name:</label>
+        <input type="text" name="text" id="text1" class="type">
+        </div>
+        <br>
+        <div class="box">
+        <label for="text2" class="t1">Last Name:</label>
+        <input type="text" name="text" id="text2" class="type">
+        </div>
+        <br>
+        <div class="box">
+        <label for="date1" class="t1">Date of Birth:</label>
+        <input type="text" name="date" id="date1" class="type">
+        </div>
+        <br>
+        <div class="box">
+        <label for="emailID" class="t1">Email ID:</label>
+        <input type="email" name="email" id="emailID" class="type">
+        </div>
+        <br>
+        <div class="box">
+        <label for="date1" class="t1">Mobile No:</label>
+        <input type="tel" name="tel" id="tel1" class="type">
+        </div>
+        <br>
+        <br>
+        <button class="button">Submit</button>
+        <button class="button">Reset</button>
+    </form>
+</body>
+</html>

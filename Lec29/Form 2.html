@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+    .form-row {
+        margin-bottom: 15px; /* vertical gap between rows */
+        display: flex;
+        align-items: center;
+    }
+
+    .form-row label {
+        width: 100px; /* horizontal space for labels */
+        font-family: 'Georgia', serif; /* match font style if needed */
+    }
+
+    .form-row input {
+        width: 200px;
+        padding: 5px;
+        border: 1px solid #89a; /* light border to match the image */
+    }
+</style>
+
+<form>
+    <div class="form-row">
+        <label for="Username1">Username:</label>
+        <input type="text" name="Username" id="Username1">
+    </div>
+    <div class="form-row">
+        <label for="Password1">Password:</label>
+        <input type="password" name="Password" id="Password1">
+    </div>
+    <div class="form-row">
+        <label for="City1">City of Employment:</label>
+        <input type="text" name="city" id="city1">
+    </div>
+</form>
+
+</body>
+</html>
